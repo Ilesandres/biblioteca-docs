@@ -3,4 +3,5 @@ nav:
   - Inicio: 'index.md'
   - Instalación: 'instalacion.md'
   - Uso: 'uso.md'
+  
 theme: readthedocs  # Usa este tema (similar a RTD)
