@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Uso - Documentación de Mi Proyecto</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Uso";
+        var mkdocs_page_input_path = "uso.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Documentación de Mi Proyecto
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Inicio</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../instalacion/">Instalación</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Uso</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#introduccion">Introducción</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#acceso-al-sistema">Acceso al Sistema</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#registro-de-usuario">Registro de Usuario</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#inicio-de-sesion">Inicio de Sesión</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#funcionalidades-para-usuarios">Funcionalidades para Usuarios</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#busqueda-de-recursos">Búsqueda de Recursos</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#busqueda-simple">Búsqueda Simple</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#busqueda-avanzada">Búsqueda Avanzada</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#gestion-de-prestamos">Gestión de Préstamos</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#solicitar-un-prestamo">Solicitar un Préstamo</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#renovar-prestamos">Renovar Préstamos</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#historial-de-prestamos">Historial de Préstamos</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#perfil-de-usuario">Perfil de Usuario</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#actualizacion-de-datos">Actualización de Datos</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#cambio-de-contrasena">Cambio de Contraseña</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#panel-de-administracion">Panel de Administración</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#gestion-de-usuarios">Gestión de Usuarios</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#crear-nuevo-usuario">Crear Nuevo Usuario</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#modificar-usuarios">Modificar Usuarios</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#gestion-de-recursos">Gestión de Recursos</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#agregar-nuevo-recurso">Agregar Nuevo Recurso</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#actualizar-recursos">Actualizar Recursos</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#reportes">Reportes</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#generacion-de-reportes">Generación de Reportes</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#tipos-de-reportes-disponibles">Tipos de Reportes Disponibles</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#funcionalidades-avanzadas">Funcionalidades Avanzadas</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#notificaciones">Notificaciones</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#exportacion-de-datos">Exportación de Datos</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#solucion-de-problemas-comunes">Solución de Problemas Comunes</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#problemas-de-acceso">Problemas de Acceso</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#errores-en-prestamos">Errores en Préstamos</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#contacto-y-soporte">Contacto y Soporte</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Documentación de Mi Proyecto</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Uso</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="manual-de-usuario-biblioteca-digital">Manual de Usuario - Biblioteca Digital</h1>
+<h2 id="introduccion">Introducción</h2>
+<p>Este manual proporciona una guía detallada sobre cómo utilizar el sistema de Biblioteca Digital, explicando todas las funcionalidades disponibles tanto para usuarios como para administradores.</p>
+<h2 id="acceso-al-sistema">Acceso al Sistema</h2>
+<h3 id="registro-de-usuario">Registro de Usuario</h3>
+<ol>
+<li>Acceda a la página principal</li>
+<li>Haga clic en "Registrarse"</li>
+<li>Complete el formulario con sus datos</li>
+<li>Verifique su correo electrónico</li>
+</ol>
+<h3 id="inicio-de-sesion">Inicio de Sesión</h3>
+<ol>
+<li>Ingrese su correo electrónico</li>
+<li>Ingrese su contraseña</li>
+<li>Seleccione "Mantener sesión iniciada" si lo desea</li>
+</ol>
+<h2 id="funcionalidades-para-usuarios">Funcionalidades para Usuarios</h2>
+<h3 id="busqueda-de-recursos">Búsqueda de Recursos</h3>
+<h4 id="busqueda-simple">Búsqueda Simple</h4>
+<ul>
+<li>Utilice la barra de búsqueda principal</li>
+<li>Ingrese palabras clave</li>
+<li>Filtre por categoría si lo desea</li>
+</ul>
+<h4 id="busqueda-avanzada">Búsqueda Avanzada</h4>
+<ul>
+<li>Acceda a "Búsqueda Avanzada"</li>
+<li>Utilice filtros específicos:</li>
+<li>Autor</li>
+<li>Título</li>
+<li>Año de publicación</li>
+<li>Categoría</li>
+<li>Disponibilidad</li>
+</ul>
+<h3 id="gestion-de-prestamos">Gestión de Préstamos</h3>
+<h4 id="solicitar-un-prestamo">Solicitar un Préstamo</h4>
+<ol>
+<li>Busque el recurso deseado</li>
+<li>Verifique disponibilidad</li>
+<li>Haga clic en "Solicitar Préstamo"</li>
+<li>Confirme la solicitud</li>
+</ol>
+<h4 id="renovar-prestamos">Renovar Préstamos</h4>
+<ol>
+<li>Acceda a "Mis Préstamos"</li>
+<li>Seleccione el préstamo a renovar</li>
+<li>Haga clic en "Renovar"</li>
+</ol>
+<h4 id="historial-de-prestamos">Historial de Préstamos</h4>
+<ul>
+<li>Visualice préstamos actuales</li>
+<li>Consulte historial completo</li>
+<li>Verifique fechas de devolución</li>
+</ul>
+<h3 id="perfil-de-usuario">Perfil de Usuario</h3>
+<h4 id="actualizacion-de-datos">Actualización de Datos</h4>
+<ol>
+<li>Acceda a "Mi Perfil"</li>
+<li>Modifique los campos deseados</li>
+<li>Guarde los cambios</li>
+</ol>
+<h4 id="cambio-de-contrasena">Cambio de Contraseña</h4>
+<ol>
+<li>Vaya a "Configuración"</li>
+<li>Seleccione "Cambiar Contraseña"</li>
+<li>Siga las instrucciones</li>
+</ol>
+<h2 id="panel-de-administracion">Panel de Administración</h2>
+<h3 id="gestion-de-usuarios">Gestión de Usuarios</h3>
+<h4 id="crear-nuevo-usuario">Crear Nuevo Usuario</h4>
+<ol>
+<li>Acceda a "Gestión de Usuarios"</li>
+<li>Haga clic en "Nuevo Usuario"</li>
+<li>Complete la información</li>
+<li>Asigne roles y permisos</li>
+</ol>
+<h4 id="modificar-usuarios">Modificar Usuarios</h4>
+<ul>
+<li>Busque el usuario</li>
+<li>Edite la información</li>
+<li>Actualice roles/permisos</li>
+</ul>
+<h3 id="gestion-de-recursos">Gestión de Recursos</h3>
+<h4 id="agregar-nuevo-recurso">Agregar Nuevo Recurso</h4>
+<ol>
+<li>Vaya a "Gestión de Recursos"</li>
+<li>Seleccione "Nuevo Recurso"</li>
+<li>Complete el formulario</li>
+<li>Adjunte archivos si es necesario</li>
+</ol>
+<h4 id="actualizar-recursos">Actualizar Recursos</h4>
+<ul>
+<li>Localice el recurso</li>
+<li>Modifique la información</li>
+<li>Actualice el estado</li>
+</ul>
+<h3 id="reportes">Reportes</h3>
+<h4 id="generacion-de-reportes">Generación de Reportes</h4>
+<ol>
+<li>Acceda a "Reportes"</li>
+<li>Seleccione el tipo de reporte</li>
+<li>Configure filtros</li>
+<li>Genere y descargue</li>
+</ol>
+<h4 id="tipos-de-reportes-disponibles">Tipos de Reportes Disponibles</h4>
+<ul>
+<li>Préstamos activos</li>
+<li>Recursos más solicitados</li>
+<li>Usuarios activos</li>
+<li>Estadísticas generales</li>
+</ul>
+<h2 id="funcionalidades-avanzadas">Funcionalidades Avanzadas</h2>
+<h3 id="notificaciones">Notificaciones</h3>
+<ul>
+<li>Configure preferencias</li>
+<li>Revise notificaciones pendientes</li>
+<li>Archive o elimine notificaciones</li>
+</ul>
+<h3 id="exportacion-de-datos">Exportación de Datos</h3>
+<ol>
+<li>Seleccione datos a exportar</li>
+<li>Elija formato (CSV, PDF)</li>
+<li>Descargue el archivo</li>
+</ol>
+<h2 id="solucion-de-problemas-comunes">Solución de Problemas Comunes</h2>
+<h3 id="problemas-de-acceso">Problemas de Acceso</h3>
+<ul>
+<li>Verifique sus credenciales</li>
+<li>Use "Olvidé mi contraseña"</li>
+<li>Contacte al administrador</li>
+</ul>
+<h3 id="errores-en-prestamos">Errores en Préstamos</h3>
+<ul>
+<li>Verifique límites de préstamos</li>
+<li>Confirme disponibilidad</li>
+<li>Revise estado de usuario</li>
+</ul>
+<h2 id="contacto-y-soporte">Contacto y Soporte</h2>
+<ul>
+<li>Correo de soporte: soporte@biblioteca.com</li>
+<li>Horario de atención: Lunes a Viernes, 9:00 - 18:00</li>
+<li>Sistema de tickets: [URL del sistema]</li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../instalacion/" class="btn btn-neutral float-left" title="Instalación"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../instalacion/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
