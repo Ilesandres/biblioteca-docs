@@ -40,6 +40,7 @@ Nuestro sistema está construido utilizando tecnologías modernas y robustas:
 
 - [Guía de Instalación](instalacion.md) - Configuración del sistema
 - [Manual de Usuario](uso.md) - Instrucciones detalladas de uso
+- [tecnico](biblioteca/informe_tecnico.md)
 
 ## Estado Actual
 
